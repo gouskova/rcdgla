@@ -1,0 +1,6 @@
+			Iamb	Trochee	*StressHi
+			Iamb	Trochee	*StressHi
+kata	káta	1	1	0	0
+	katá		0	1	0
+pika	píka	1	1	0	1
+	piká		0	1	0
