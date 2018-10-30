@@ -74,22 +74,6 @@ def make_support_table(tabdic, con_names):
             support[pair]['l_pref_constraints']= [x for x in con_names if tabdic[pair[0]]['num_viol'][x]>tabdic[pair[1]]['num_viol'][x]]
     return support
 
-def print_tableau(hieararchy, tabdic, support, comparative=False):
-    print("\n\n\t\t\t\t"+ "|\t".join(['¦\t'.join(col) for col in hierarchy]))
-    for cand in sorted(tabdic):
-        viols = []
-        if tabdic[cand]['winner']:
-            inform = '/'+cand[0]+'/'
-            winner = "->\t"
-        else:
-            inform = "\t"
-            winner = "\t"
-        outform = cand[1]+"\t"
-        for cons in hierarchy:
-            viols.append("¦\t".join([str(tabdic[cand]['num_viol'][con]) for con in cons]))
-        violations = "|\t".join(viols)
-        print(''.join([inform, winner, outform, violations]))
-
 def convert_to_praat(inpath):
     '''
     this function takes in an OT-Soft tableau and converts it to Praat's format.
@@ -116,9 +100,10 @@ def convert_to_praat(inpath):
                 f.write('File type = "ooTextFile"\nObject class = "OTGrammar 2"\n\ndecisionStrategy = <OptimalityTheory>\nleak = 0\n'+str(len(con_names)) + ' constraints\n')
                 counter = 1
                 for cons in con_names:
-                    f.write('constraint [%s]: "%s" 100 100 1 ! %s\n' % (counter, cons, cons))
+                    #f.write('constraint [%s]: "%s" 100 100 1 ! %s\n' % (counter, cons, cons))
+                    f.write('constraint [%s]: "%s" 100 100 1\n' % (counter, cons))
                     counter+=1
-                f.write('\nO fixed rankings\n\n' + str(len(tabdic)) + ' tableaus\n')
+                f.write('\n0 fixed rankings\n\n' + str(len(tabdic)) + ' tableaus\n')
                 counter = 1 #for inputs
                 inputs = list(set([x[0] for x in tabdic]))
                 for inp in inputs:
@@ -153,27 +138,15 @@ if __name__=='__main__':
     '''
     command line instructions:
     
-    $python3 pyranker.py path-to-your-textfile
-
-    for example:
-
-    $python3 pyranker.py sample_files/trochee_example.txt
-
-    This will apply Recursive Constraint Demotion to find the ranking that derives the winners, and print out the resulting tableau to terminal.
+    $python3 converter.py path-to-your-textfile
 
     The input file should follow OT-Soft format (also OT-Help, etc.)
 
-    if you supply 'convert' to the script, it converts the file ending in .txt to a Praat-compatible GLA file. It will be placed in the same directory as the input file.
+    converts the file ending in .txt to a Praat-compatible GLA OTGrammar and PairDistribution files. They will be placed in the same directory as the input file.
     '''
     import sys
-    if not 'convert' in sys.argv:
-        ranking_data = sys.argv[1]
-        tableau = read_tableau(ranking_data)
-        condic = make_condic(tableau[0],tableau[1])
-        support = make_support_table(tableau[0], tableau[1])
-    else:
-        try:
-            convert_to_praat(sys.argv[1])
-        except IOError:
-            print('please make sure that ' + sys.argv[1] + ' exists')
-            print('please also make sure that there is no file that would be overwritten by conversion.')
+    try:
+        convert_to_praat(sys.argv[1])
+    except IOError:
+        print('please make sure that ' + sys.argv[1] + ' exists')
+        print('please also make sure that there is no file that would be overwritten by conversion.')

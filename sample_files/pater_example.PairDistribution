@@ -1,0 +1,13 @@
+"ooTextFile"
+"PairDistribution"
+
+8 pairs
+
+'puka'	'puta'	0
+'pata'	'pita'	0
+'paku'	'paku'	0
+'tiku'	'tiku'	1
+'tiku'	'taku'	0
+'paku'	'piku'	1
+'puka'	'puka'	1
+'pata'	'pata'	1

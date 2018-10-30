@@ -1,0 +1,57 @@
+"ooTextFile"
+"PairDistribution"
+
+52 pairs
+
+"so vsIbom"	"s fsIbom"	0.3									
+"so vsIbom"	"sa fsIbom"	0.7								
+"so vsibOm"	"s fsibOm"	0.41								
+"so vsibOm"	"sə fsibOm"	0.59								
+"so kIbom"	"s kIbom"	0.99								
+"so kIbom"	"sa kIbom"	0.01								
+"so kibOm"	"s kibOm"	1								
+"so kibOm"	"sə kibOm"	0								
+"so msIbom"	"s msIbom"	0.37								
+"so msIbom"	"sa msIbom"	0.63								
+"so msibOm"	"s msibOm"	0.53								
+"so msibOm"	"sə msibOm"	0.47								
+"so rdIbom"	"s rdIbom"	0.42								
+"so rdIbom"	"sa rdIbom"	0.58								
+"so rdibOm"	"s rdibOm"	0.51								
+"so rdibOm"	"sə rdibOm"	0.49								
+"so rnIbom"	"s rnIbom"	0.49								
+"so rnIbom"	"sa rnIbom"	0.51								
+"so rnibOm"	"s rnibOm"	0.55								
+"so rnibOm"	"sə rnibOm"	0.45								
+"so SrIbom"	"s SrIbom"	0.24								
+"so SrIbom"	"sa SrIbom"	0.76								
+"so SribOm"	"s SribOm"	0.3								
+"so SribOm"	"sə SribOm"	0.7								
+"so StIbom"	"s StIbom"	0.2								
+"so StIbom"	"sa StIbom"	0.8								
+"so StibOm"	"s StibOm"	0.19								
+"so StibOm"	"sə StibOm"	0.81								
+"so vdIbom"	"s vdIbom"	0.44								
+"so vdIbom"	"sa vdIbom"	0.56								
+"so vdibOm"	"s vdibOm"	0.6								
+"so vdibOm"	"sə vdibOm"	0.4								
+"so vnIbom"	"s vnIbom"	0.6								
+"so vnIbom"	"sa vnIbom"	0.4								
+"so vnibOm"	"s vnibOm"	0.68								
+"so vnibOm"	"sə vnibOm"	0.32								
+"so vzIbom"	"s vzIbom"	0.31								
+"so vzIbom"	"sa vzIbom"	0.69								
+"so vzibOm"	"s vzibOm"	0.44								
+"so vzibOm"	"sə vzibOm"	0.56								
+"so xrIbom"	"s xrIbom"	0.93								
+"so xrIbom"	"sa xrIbom"	0.07								
+"so xribOm"	"s xribOm"	0.89								
+"so xribOm"	"sə xribOm"	0.11								
+"so xsIbom"	"s xsIbom"	0.51								
+"so xsIbom"	"sa xsIbom"	0.49								
+"so xsibOm"	"s xsibOm"	0.6								
+"so xsibOm"	"sə xsibOm"	0.4								
+"so sibOm"	"s sibOm"	1.0								
+"so sibOm"	"sə sibOm"	0.0								
+"so sIbom"	"s sIbom"	1.0								
+"so sIbom"	"so sIbom"	0.0
