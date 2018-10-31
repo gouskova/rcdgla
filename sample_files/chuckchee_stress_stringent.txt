@@ -1,5 +1,5 @@
-			*str/schwa	NonFin	*str/i,u	Align-R	*str/e,o	*str/a	Align-L
-			*str/schwa	NonFin	*str/i,u	Align-R	*str/e,o	*str/a	Align-L
+			*str/schwa	NonFin	*str/i-u-schwa	Align-R	*str/e-o-i-u-schwa	*str/a-e-o-i-u-schwa	Align-L
+			*str/schwa	NonFin	*str/i-u-schwa	Align-R	*str/e-o-i-u-schwa	*str/a-e-o-i-u-schwa	Align-L
 kelikel	kélikel	1				2	1	1	
 	kelíkel				1	1	1	1	1
 	kelikél			1			1	1	2

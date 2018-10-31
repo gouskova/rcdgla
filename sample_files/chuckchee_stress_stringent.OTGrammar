@@ -6,43 +6,43 @@ leak = 0
 7 constraints
 constraint [1]: "*str/schwa" 100 100 1
 constraint [2]: "NonFin" 100 100 1
-constraint [3]: "*str/i,u" 100 100 1
+constraint [3]: "*str/i-u-schwa" 100 100 1
 constraint [4]: "Align-R" 100 100 1
-constraint [5]: "*str/e,o" 100 100 1
-constraint [6]: "*str/a" 100 100 1
+constraint [5]: "*str/e-o-i-u-schwa" 100 100 1
+constraint [6]: "*str/a-e-o-i-u-schwa" 100 100 1
 constraint [7]: "Align-L" 100 100 1
 
 0 fixed rankings
 
 9 tableaus
-input [1]: "jatjol" 2
-   candidate [1]: "játjol" 0 0 0 1 0 1 0
-   candidate [2]: "jatjól" 0 1 0 0 1 1 1
-input [2]: "milutet" 2
-   candidate [1]: "milútet" 0 0 1 1 1 1 1
-   candidate [2]: "milutét" 0 1 0 0 1 1 2
-input [3]: "jatjolte" 3
-   candidate [1]: "játjolte" 0 0 0 2 0 1 0
-   candidate [2]: "jatjólte" 0 0 0 1 1 1 1
-   candidate [3]: "jatjolté" 0 1 0 0 1 1 2
-input [4]: "kelikel" 3
-   candidate [1]: "kelikél" 0 1 0 0 1 1 2
-   candidate [2]: "kelíkel" 0 0 1 1 1 1 1
-   candidate [3]: "kélikel" 0 0 0 2 1 1 0
-input [5]: "qorat" 2
+input [1]: "qorat" 2
    candidate [1]: "qorát" 0 1 0 0 0 1 1
    candidate [2]: "qórat" 0 0 0 1 1 1 0
+input [2]: "warat" 2
+   candidate [1]: "warát" 0 1 0 0 1 1 1
+   candidate [2]: "wárat" 0 0 0 1 1 1 0
+input [3]: "kelikel" 3
+   candidate [1]: "kelíkel" 0 0 1 1 1 1 1
+   candidate [2]: "kélikel" 0 0 0 2 1 1 0
+   candidate [3]: "kelikél" 0 1 0 0 1 1 2
+input [4]: "məcəkwən" 3
+   candidate [1]: "məcəkwʹən" 1 1 1 0 1 1 2
+   candidate [2]: "məcʹəkwən" 1 0 1 1 1 1 1
+   candidate [3]: "mʹəcəkwən" 1 0 1 2 1 1 0
+input [5]: "milutet" 2
+   candidate [1]: "milutét" 0 1 0 0 1 1 2
+   candidate [2]: "milútet" 0 0 1 1 1 1 1
 input [6]: "qoraŋə" 3
    candidate [1]: "qoraŋ'ə" 1 1 1 0 1 1 2
-   candidate [2]: "qóraŋə" 0 0 0 2 1 1 0
-   candidate [3]: "qoráŋə" 0 0 0 1 1 1 1
-input [7]: "məcəkwən" 3
-   candidate [1]: "mʹəcəkwən" 1 0 1 2 1 1 0
-   candidate [2]: "məcʹəkwən" 1 0 1 1 1 1 1
-   candidate [3]: "məcəkwʹən" 1 1 1 0 1 1 2
-input [8]: "ʔənin" 2
-   candidate [1]: "ʔənín" 0 1 1 0 1 1 1
-   candidate [2]: "ʔʹənin" 1 0 1 1 1 1 0
-input [9]: "warat" 2
-   candidate [1]: "wárat" 0 0 0 1 1 1 0
-   candidate [2]: "warát" 0 1 0 0 1 1 1
+   candidate [2]: "qoráŋə" 0 0 0 1 1 1 1
+   candidate [3]: "qóraŋə" 0 0 0 2 1 1 0
+input [7]: "ʔənin" 2
+   candidate [1]: "ʔʹənin" 1 0 1 1 1 1 0
+   candidate [2]: "ʔənín" 0 1 1 0 1 1 1
+input [8]: "jatjol" 2
+   candidate [1]: "játjol" 0 0 0 1 0 1 0
+   candidate [2]: "jatjól" 0 1 0 0 1 1 1
+input [9]: "jatjolte" 3
+   candidate [1]: "játjolte" 0 0 0 2 0 1 0
+   candidate [2]: "jatjolté" 0 1 0 0 1 1 2
+   candidate [3]: "jatjólte" 0 0 0 1 1 1 1
