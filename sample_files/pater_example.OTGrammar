@@ -1,27 +1,27 @@
-File type = 'ooTextFile'
-Object class = 'OTGrammar 2'
+File type = "ooTextFile"
+Object class = "OTGrammar 2"
 
 decisionStrategy = <OptimalityTheory>
 leak = 0
 5 constraints
-constraint [1]: 'One' 100 100 1 ! One
-constraint [2]: 'Two' 100 100 1 ! Two
-constraint [3]: 'Three' 100 100 1 ! Three
-constraint [4]: 'Four' 100 100 1 ! Four
-constraint [5]: 'Five' 100 100 1 ! Five
+constraint [1]: "One" 100 100 1
+constraint [2]: "Two" 100 100 1
+constraint [3]: "Three" 100 100 1
+constraint [4]: "Four" 100 100 1
+constraint [5]: "Five" 100 100 1
 
 0 fixed rankings
 
 4 tableaus
-input [1]: 'paku' 2
-   candidate [1]: 'paku' 0 0 0 1 0
-   candidate [2]: 'piku' 0 0 0 0 1
-input [2]: 'pata' 2
-   candidate [1]: 'pita' 1 0 1 0 0
-   candidate [2]: 'pata' 0 1 0 0 0
-input [3]: 'tiku' 2
-   candidate [1]: 'tiku' 0 0 0 1 0
-   candidate [2]: 'taku' 0 0 1 0 1
-input [4]: 'puka' 2
-   candidate [1]: 'puta' 0 1 0 1 0
-   candidate [2]: 'puka' 0 0 1 0 0
+input [1]: "tiku" 2
+   candidate [1]: "tiku" 0 0 0 1 0
+   candidate [2]: "taku" 0 0 1 0 1
+input [2]: "paku" 2
+   candidate [1]: "piku" 0 0 0 0 1
+   candidate [2]: "paku" 0 0 0 1 0
+input [3]: "pata" 2
+   candidate [1]: "pita" 1 0 1 0 0
+   candidate [2]: "pata" 0 1 0 0 0
+input [4]: "puka" 2
+   candidate [1]: "puka" 0 0 1 0 0
+   candidate [2]: "puta" 0 1 0 1 0

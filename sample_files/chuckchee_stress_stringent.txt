@@ -1,0 +1,25 @@
+			*str/schwa	NonFin	*str/i,u	Align-R	*str/e,o	*str/a	Align-L
+			*str/schwa	NonFin	*str/i,u	Align-R	*str/e,o	*str/a	Align-L
+kelikel	kélikel	1				2	1	1	
+	kelíkel				1	1	1	1	1
+	kelikél			1			1	1	2
+qorat	qórat	1				1	1	1	
+	qorát			1				1	1
+jatjolte	jatjólte	1				1	1	1	1
+	játjolte					2		1	
+	jatjolté			1			1	1	2
+milutet	milútet	1			1	1	1	1	1
+	milutét			1			1	1	2
+ʔənin	ʔənín	1		1	1		1	1	1
+	ʔʹənin		1		1	1	1	1	
+məcəkwən	məcʹəkwən	1	1		1	1	1	1	1
+	mʹəcəkwən		1		1	2	1	1	
+	məcəkwʹən		1	1	1		1	1	2
+warat	wárat	1				1	1	1	
+	warát			1			1	1	1
+jatjol	játjol	1				1		1	
+	jatjól			1			1	1	1
+qoraŋə	qoráŋə	1				1	1	1	1
+	qoraŋ'ə		1	1	1		1	1	2
+	qóraŋə					2	1	1	
+

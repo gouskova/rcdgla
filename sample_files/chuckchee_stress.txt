@@ -19,6 +19,6 @@ warat	wárat	1				1		1
 	warát			1				1	1	
 jatjol	játjol	1				1		1	
 	jatjól			1			1		1
-qoraNə	qoráNə	1				1		1	1
-	qoraN'ə		1	1					2
-	qóraNə					2	1			
+qoraŋə	qoráŋə	1				1		1	1
+	qoraŋ'ə		1	1					2
+	qóraŋə					2	1			
