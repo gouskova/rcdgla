@@ -4,9 +4,9 @@ Object class = "OTGrammar 2"
 decisionStrategy = <OptimalityTheory>
 leak = 0
 3 constraints
-constraint [1]: "Iamb" 100 100 1 ! Iamb
-constraint [2]: "Trochee" 100 100 1 ! Trochee
-constraint [3]: "*StressHi" 100 100 1 ! *StressHi
+constraint [1]: "Iamb" 100 100 1
+constraint [2]: "Trochee" 100 100 1
+constraint [3]: "*StressHi" 100 100 1
 
 0 fixed rankings
 
@@ -17,4 +17,3 @@ input [1]: "pika" 2
 input [2]: "kata" 2
    candidate [1]: "katá" 0 1 0
    candidate [2]: "káta" 1 0 0
-

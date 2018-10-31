@@ -14,7 +14,7 @@ constraint [7]: "Align-L" 100 100 1
 
 0 fixed rankings
 
-22 tableaus
+9 tableaus
 input [1]: "kelikel" 3
    candidate [1]: "kelikél" 0 1 0 0 1 0 2
    candidate [2]: "kelíkel" 0 0 1 1 0 0 1

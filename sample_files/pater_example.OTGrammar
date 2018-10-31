@@ -12,7 +12,7 @@ constraint [5]: 'Five' 100 100 1 ! Five
 
 0 fixed rankings
 
-8 tableaus
+4 tableaus
 input [1]: 'paku' 2
    candidate [1]: 'paku' 0 0 0 1 0
    candidate [2]: 'piku' 0 0 0 0 1
