@@ -103,9 +103,9 @@ def convert_to_praat(inpath):
                     #f.write('constraint [%s]: "%s" 100 100 1 ! %s\n' % (counter, cons, cons))
                     f.write('constraint [%s]: "%s" 100 100 1\n' % (counter, cons))
                     counter+=1
-                f.write('\n0 fixed rankings\n\n' + str(len(tabdic)) + ' tableaus\n')
                 counter = 1 #for inputs
                 inputs = list(set([x[0] for x in tabdic]))
+                f.write('\n0 fixed rankings\n\n' + str(len(inputs)) + ' tableaus\n')
                 for inp in inputs:
                     candidates = [x[1] for x in tabdic if x[0] == inp]
                     f.write('input [%s]: "%s" %s\n' % (counter, inp, len(candidates)))

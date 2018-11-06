@@ -3,11 +3,11 @@
 
 8 pairs
 
-'puka'	'puta'	0
-'pata'	'pita'	0
-'paku'	'paku'	0
-'tiku'	'tiku'	1
-'tiku'	'taku'	0
-'paku'	'piku'	1
-'puka'	'puka'	1
-'pata'	'pata'	1
+"tiku"	"tiku"	1
+"pata"	"pita"	0
+"pata"	"pata"	1
+"paku"	"piku"	1
+"paku"	"paku"	0
+"tiku"	"taku"	0
+"puka"	"puka"	1
+"puka"	"puta"	0
