@@ -13,7 +13,7 @@ def read_tableau(path):
         with open(path, 'r', encoding='utf-8') as f:
             lines = [line.rstrip('\n').split('\t') for line in f.readlines() if not line.strip()=='']
             tabdic = {}
-            toprow = len(lines[0])
+#            toprow = len(lines[0])
             con_names = [x for x in lines[1] if x != '']
             for line in lines[2:]:
                 if line[0].startswith('['): #in case OTHelp format is used, [end of tableaux] and [minimal weight] lines
@@ -26,10 +26,10 @@ def read_tableau(path):
                     else: 
                         iswinner=False
                     freq = line[2]
-                    for line in lines[2:]:
+ #                   for line in lines[2:]:
                         #add some blank violations in case 0 marks aren't used, for the last few Cs
-                        if len(line)<toprow:
-                            line.extend(list('0'*(toprow-len(line))))
+ #                       if len(line)<toprow:
+ #                           line.extend(list('0'*(toprow-len(line))))
                     num_violations = dict(zip(con_names, [x for x in line[3:]]))
                     if not inform=='':
                         curr_input = inform

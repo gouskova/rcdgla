@@ -1,0 +1,19 @@
+File type = "ooTextFile"
+Object class = "OTGrammar 2"
+
+decisionStrategy = <OptimalityTheory>
+leak = 0
+3 constraints
+constraint [1]: "*sh" 100 100 1
+constraint [2]: "*si" 100 100 1
+constraint [3]: "Ident" 100 100 1
+
+0 fixed rankings
+
+2 tableaus
+input [1]: "/shi/" 2
+   candidate [1]: "shi" 1 0 0
+   candidate [2]: "si" 0 1 1
+input [2]: "/sa/" 2
+   candidate [1]: "sa" 0 0 0
+   candidate [2]: "sha" 1 0 1

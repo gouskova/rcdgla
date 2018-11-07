@@ -1,6 +1,6 @@
 			*sh	*si	Ident
 			*sh	*si	Ident
-/sa/	sa	1
-	sha		1		1
-/shi/	shi	1	1
-	si			1	1
+/sa/	sa	1	0	0	0
+	sha		1	0	1
+/shi/	shi	1	1	0	0
+	si		0	1	1
