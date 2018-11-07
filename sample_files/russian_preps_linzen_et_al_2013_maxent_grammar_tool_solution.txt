@@ -1,0 +1,167 @@
+
+Input: /so vsIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s fsIbom	0.3	0.0	0.0	1.0	9.0	0.0	1.0	1.0	0.0	
+sa fsIbom	0.7	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so vsibOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s fsibOm	0.41	0.0	0.0	1.0	9.0	0.0	1.0	1.0	0.0	
+s@ fsibOm	0.59	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so kIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s kIbom	0.99	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	
+sa kIbom	0.01	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so kibOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s kibOm	1.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	
+s@ kibOm	0.0	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so msIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s msIbom	0.37	0.0	0.0	1.0	6.0	0.0	1.0	1.0	0.0	
+sa msIbom	0.63	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so msibOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s msibOm	0.53	0.0	0.0	1.0	6.0	0.0	1.0	1.0	0.0	
+s@ msibOm	0.47	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so rdIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s rdIbom	0.42	0.0	0.0	1.0	9.0	0.0	0.0	1.0	0.0	
+sa rdIbom	0.58	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so rdibOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s rdibOm	0.51	0.0	0.0	1.0	9.0	0.0	0.0	1.0	0.0	
+s@ rdibOm	0.49	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so rnIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s rnIbom	0.49	0.0	0.0	1.0	7.0	0.0	0.0	1.0	0.0	
+sa rnIbom	0.51	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so rnibOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s rnibOm	0.55	0.0	0.0	1.0	7.0	0.0	0.0	1.0	0.0	
+s@ rnibOm	0.45	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so SrIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s SrIbom	0.24	0.0	0.0	1.0	2.0	1.0	1.0	1.0	1.0	
+sa SrIbom	0.76	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so SribOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s SribOm	0.3	0.0	0.0	1.0	2.0	1.0	1.0	1.0	1.0	
+s@ SribOm	0.7	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so StIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s StIbom	0.2	0.0	0.0	1.0	6.0	1.0	1.0	1.0	1.0	
+sa StIbom	0.8	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so StibOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s StibOm	0.19	0.0	0.0	1.0	6.0	1.0	1.0	1.0	1.0	
+s@ StibOm	0.81	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so vdIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s vdIbom	0.44	0.0	0.0	1.0	10.0	0.0	0.0	1.0	0.0	
+sa vdIbom	0.56	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so vdibOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s vdibOm	0.6	0.0	0.0	1.0	10.0	0.0	0.0	1.0	0.0	
+s@ vdibOm	0.4	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so vnIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s vnIbom	0.6	0.0	0.0	1.0	8.0	0.0	0.0	1.0	0.0	
+sa vnIbom	0.4	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so vnibOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s vnibOm	0.68	0.0	0.0	1.0	8.0	0.0	0.0	1.0	0.0	
+s@ vnibOm	0.32	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so vzIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s vzIbom	0.31	0.0	0.0	1.0	9.0	0.0	0.0	1.0	0.0	
+sa vzIbom	0.69	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so vzibOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s vzibOm	0.44	0.0	0.0	1.0	9.0	0.0	0.0	1.0	0.0	
+s@ vzibOm	0.56	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so xrIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s xrIbom	0.93	0.0	0.0	1.0	2.0	0.0	0.0	1.0	0.0	
+sa xrIbom	0.07	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so xribOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s xribOm	0.89	0.0	0.0	1.0	2.0	0.0	0.0	1.0	0.0	
+s@ xribOm	0.11	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /s xsIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s xsIbom	0.51	0.0	0.0	1.0	5.0	0.0	1.0	1.0	0.0	
+sa xsIbom	0.49	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so xsibOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s xsibOm	0.6	0.0	0.0	1.0	5.0	0.0	1.0	1.0	0.0	
+s@ xsibOm	0.4	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so sibOm/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s sibOm	1.0	0.0	0.0	1.0	0.0	1.0	1.0	0.0	0.0	
+s@ sibOm	0.0	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Input: /so sIbom/	Align-to-Lex	Parse-syll	Max	SSP	*sS	*s(C)S	*#CCC	*Gem-C
+s sIbom	1.0	0.0	0.0	1.0	0.0	1.0	1.0	0.0	0.0	
+so sIbom	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+|weights| after optimization:
+Align-to-Lex (mu=0.0, sigma^2=100000.0)	6.2359121763615715
+Parse-syll (mu=0.0, sigma^2=100000.0)	0.3723305355905583
+Max (mu=0.0, sigma^2=100000.0)	0.0
+SSP (mu=0.0, sigma^2=100000.0)	0.24361552975622697
+*sS (mu=0.0, sigma^2=100000.0)	0.0
+*s(C)S (mu=0.0, sigma^2=100000.0)	0.7361772778454109
+*#CCC (mu=0.0, sigma^2=100000.0)	4.256609593349801
+*Gem-C (mu=0.0, sigma^2=100000.0)	1.7211958543430634
+Input:	Candidate:	Observed:	Predicted:
+/so vsIbom/	s fsIbom	0.3	0.2790025935149525
+/so vsIbom/	sa fsIbom	0.7	0.7209974064850474
+/so vsibOm/	s fsibOm	0.41	0.3596038576702905
+/so vsibOm/	s@ fsibOm	0.59	0.6403961423297094
+/so kIbom/	s kIbom	0.99	0.9980459831553261
+/so kIbom/	sa kIbom	0.01	0.0019540168446738216
+/so kibOm/	s kibOm	1.0	0.9986526168884251
+/so kibOm/	s@ kibOm	0.0	0.0013473831115748789
+/so msIbom/	s msIbom	0.37	0.4455745267675843
+/so msIbom/	sa msIbom	0.63	0.5544254732324156
+/so msibOm/	s msibOm	0.53	0.5383651066122416
+/so msibOm/	s@ msibOm	0.47	0.4616348933877585
+/so rdIbom/	s rdIbom	0.42	0.446891787759197
+/so rdIbom/	sa rdIbom	0.58	0.553108212240803
+/so rdibOm/	s rdibOm	0.51	0.5396896585911147
+/so rdibOm/	s@ rdibOm	0.49	0.4603103414088854
+/so rnIbom/	s rnIbom	0.49	0.5680731314210176
+/so rnIbom/	sa rnIbom	0.51	0.43192686857898244
+/so rnibOm/	s rnibOm	0.55	0.6561816995855894
+/so rnibOm/	s@ rnibOm	0.45	0.34381830041441064
+/so SrIbom/	s SrIbom	0.24	0.2758179811057556
+/so SrIbom/	sa SrIbom	0.76	0.7241820188942444
+/so SribOm/	s SribOm	0.3	0.3559534429222895
+/so SribOm/	s@ SribOm	0.7	0.6440465570777105
+/so StIbom/	s StIbom	0.2	0.12567381579630946
+/so StIbom/	sa StIbom	0.8	0.8743261842036905
+/so StibOm/	s StibOm	0.19	0.1725826184167551
+/so StibOm/	s@ StibOm	0.81	0.8274173815832448
+/so vdIbom/	s vdIbom	0.44	0.3877327124939149
+/so vdIbom/	sa vdIbom	0.56	0.6122672875060852
+/so vdibOm/	s vdibOm	0.6	0.4788820259949692
+/so vdibOm/	s@ vdibOm	0.4	0.5211179740050308
+/so vnIbom/	s vnIbom	0.6	0.5075940022429534
+/so vnIbom/	sa vnIbom	0.4	0.49240599775704663
+/so vnibOm/	s vnibOm	0.68	0.5993383234324097
+/so vnibOm/	s@ vnibOm	0.32	0.40066167656759033
+/so vzIbom/	s vzIbom	0.31	0.446891787759197
+/so vzIbom/	sa vzIbom	0.69	0.553108212240803
+/so vzibOm/	s vzibOm	0.44	0.5396896585911147
+/so vzibOm/	s@ vzibOm	0.56	0.4603103414088854
+/so xrIbom/	s xrIbom	0.93	0.816388993357641
+/so xrIbom/	sa xrIbom	0.07	0.18361100664235902
+/so xribOm/	s xribOm	0.89	0.865809219277073
+/so xribOm/	s@ xribOm	0.11	0.13419078072292703
+/s xsIbom/	s xsIbom	0.51	0.5062615867308826
+/s xsIbom/	sa xsIbom	0.49	0.4937384132691173
+/so xsibOm/	s xsibOm	0.6	0.598057579895269
+/so xsibOm/	s@ xsibOm	0.4	0.401942420104731
+/so sibOm/	s sibOm	1.0	0.9971908645796008
+/so sibOm/	s@ sibOm	0.0	0.002809135420399136
+/so sIbom/	s sIbom	1.0	0.99592878753494
+/so sIbom/	so sIbom	0.0	0.004071212465060139
