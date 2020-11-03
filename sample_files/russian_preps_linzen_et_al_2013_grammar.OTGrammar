@@ -16,81 +16,81 @@ constraint [8]: "*Gem-C" 100 100 1
 0 fixed rankings
 
 26 tableaus
-input [1]: "/so StIbom/" 2
-   candidate [1]: "sa StIbom" 1 0 0 0 0 0 0 0
-   candidate [2]: "s StIbom" 1 0 0 0 0 0 0 0
-input [2]: "/so vzIbom/" 2
-   candidate [1]: "s vzIbom" 1 0 0 0 0 0 0 0
-   candidate [2]: "sa vzIbom" 1 0 0 0 0 0 0 0
-input [3]: "/so xsibOm/" 2
-   candidate [1]: "s xsibOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s@ xsibOm" 1 0 0 0 0 0 0 0
-input [4]: "/so vdibOm/" 2
-   candidate [1]: "s vdibOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s@ vdibOm" 1 0 0 0 0 0 0 0
-input [5]: "/so vsibOm/" 2
-   candidate [1]: "s@ fsibOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s fsibOm" 1 0 0 0 0 0 0 0
-input [6]: "/so kibOm/" 2
-   candidate [1]: "s kibOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s@ kibOm" 1 0 0 0 0 0 0 0
-input [7]: "/so vnibOm/" 2
-   candidate [1]: "s@ vnibOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s vnibOm" 1 0 0 0 0 0 0 0
-input [8]: "/so sibOm/" 2
-   candidate [1]: "s@ sibOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s sibOm" 1 0 0 0 0 0 0 0
-input [9]: "/so vnIbom/" 2
-   candidate [1]: "sa vnIbom" 1 0 0 0 0 0 0 0
-   candidate [2]: "s vnIbom" 1 0 0 0 0 0 0 0
-input [10]: "/so rnIbom/" 2
-   candidate [1]: "s rnIbom" 1 0 0 0 0 0 0 0
-   candidate [2]: "sa rnIbom" 1 0 0 0 0 0 0 0
-input [11]: "/so vzibOm/" 2
-   candidate [1]: "s vzibOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s@ vzibOm" 1 0 0 0 0 0 0 0
-input [12]: "/s xsIbom/" 2
-   candidate [1]: "sa xsIbom" 1 0 0 0 0 0 0 0
-   candidate [2]: "s xsIbom" 1 0 0 0 0 0 0 0
-input [13]: "/so xribOm/" 2
-   candidate [1]: "s xribOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s@ xribOm" 1 0 0 0 0 0 0 0
-input [14]: "/so StibOm/" 2
-   candidate [1]: "s@ StibOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s StibOm" 1 0 0 0 0 0 0 0
-input [15]: "/so vdIbom/" 2
-   candidate [1]: "s vdIbom" 1 0 0 0 0 0 0 0
-   candidate [2]: "sa vdIbom" 1 0 0 0 0 0 0 0
-input [16]: "/so vsIbom/" 2
-   candidate [1]: "s fsIbom" 1 0 0 0 0 0 0 0
-   candidate [2]: "sa fsIbom" 1 0 0 0 0 0 0 0
-input [17]: "/so SrIbom/" 2
-   candidate [1]: "s SrIbom" 1 0 0 0 0 0 0 0
-   candidate [2]: "sa SrIbom" 1 0 0 0 0 0 0 0
-input [18]: "/so msIbom/" 2
-   candidate [1]: "s msIbom" 1 0 0 0 0 0 0 0
+input [1]: "/so vsibOm/" 2
+   candidate [1]: "s fsibOm" 0 0 1 9 0 1 1 0
+   candidate [2]: "s@ fsibOm" 1 1 0 0 0 0 0 0
+input [2]: "/so msIbom/" 2
+   candidate [1]: "s msIbom" 0 0 1 6 0 1 1 0
    candidate [2]: "sa msIbom" 1 0 0 0 0 0 0 0
-input [19]: "/so rnibOm/" 2
-   candidate [1]: "s rnibOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s@ rnibOm" 1 0 0 0 0 0 0 0
-input [20]: "/so SribOm/" 2
-   candidate [1]: "s SribOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s@ SribOm" 1 0 0 0 0 0 0 0
-input [21]: "/so xrIbom/" 2
-   candidate [1]: "s xrIbom" 1 0 0 0 0 0 0 0
-   candidate [2]: "sa xrIbom" 1 0 0 0 0 0 0 0
-input [22]: "/so sIbom/" 2
-   candidate [1]: "so sIbom" 1 0 0 0 0 0 0 0
-   candidate [2]: "s sIbom" 1 0 0 0 0 0 0 0
-input [23]: "/so rdibOm/" 2
-   candidate [1]: "s@ rdibOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s rdibOm" 1 0 0 0 0 0 0 0
-input [24]: "/so kIbom/" 2
-   candidate [1]: "s kIbom" 1 0 0 0 0 0 0 0
+input [3]: "/so vnIbom/" 2
+   candidate [1]: "s vnIbom" 0 0 1 8 0 0 1 0
+   candidate [2]: "sa vnIbom" 1 0 0 0 0 0 0 0
+input [4]: "/so xsibOm/" 2
+   candidate [1]: "s xsibOm" 0 0 1 5 0 1 1 0
+   candidate [2]: "s@ xsibOm" 1 1 0 0 0 0 0 0
+input [5]: "/so SribOm/" 2
+   candidate [1]: "s SribOm" 0 0 1 2 1 1 1 1
+   candidate [2]: "s@ SribOm" 1 1 0 0 0 0 0 0
+input [6]: "/so StibOm/" 2
+   candidate [1]: "s StibOm" 0 0 1 6 1 1 1 1
+   candidate [2]: "s@ StibOm" 1 1 0 0 0 0 0 0
+input [7]: "/so vzIbom/" 2
+   candidate [1]: "s vzIbom" 0 0 1 9 0 0 1 0
+   candidate [2]: "sa vzIbom" 1 0 0 0 0 0 0 0
+input [8]: "/so StIbom/" 2
+   candidate [1]: "s StIbom" 0 0 1 6 1 1 1 1
+   candidate [2]: "sa StIbom" 1 0 0 0 0 0 0 0
+input [9]: "/so kIbom/" 2
+   candidate [1]: "s kIbom" 0 0 1 0 0 0 0 0
    candidate [2]: "sa kIbom" 1 0 0 0 0 0 0 0
-input [25]: "/so rdIbom/" 2
-   candidate [1]: "sa rdIbom" 1 0 0 0 0 0 0 0
-   candidate [2]: "s rdIbom" 1 0 0 0 0 0 0 0
-input [26]: "/so msibOm/" 2
-   candidate [1]: "s msibOm" 1 0 0 0 0 0 0 0
-   candidate [2]: "s@ msibOm" 1 0 0 0 0 0 0 0
+input [10]: "/so vnibOm/" 2
+   candidate [1]: "s vnibOm" 0 0 1 8 0 0 1 0
+   candidate [2]: "s@ vnibOm" 1 1 0 0 0 0 0 0
+input [11]: "/so sibOm/" 2
+   candidate [1]: "s sibOm" 0 0 1 0 1 1 0 0
+   candidate [2]: "s@ sibOm" 1 1 0 0 0 0 0 0
+input [12]: "/so xrIbom/" 2
+   candidate [1]: "s xrIbom" 0 0 1 2 0 0 1 0
+   candidate [2]: "sa xrIbom" 1 0 0 0 0 0 0 0
+input [13]: "/s xsIbom/" 2
+   candidate [1]: "s xsIbom" 0 0 1 5 0 1 1 0
+   candidate [2]: "sa xsIbom" 1 0 0 0 0 0 0 0
+input [14]: "/so kibOm/" 2
+   candidate [1]: "s kibOm" 0 0 1 0 0 0 0 0
+   candidate [2]: "s@ kibOm" 1 1 0 0 0 0 0 0
+input [15]: "/so rdIbom/" 2
+   candidate [1]: "s rdIbom" 0 0 1 9 0 0 1 0
+   candidate [2]: "sa rdIbom" 1 0 0 0 0 0 0 0
+input [16]: "/so vdIbom/" 2
+   candidate [1]: "s vdIbom" 0 0 1 10 0 0 1 0
+   candidate [2]: "sa vdIbom" 1 0 0 0 0 0 0 0
+input [17]: "/so sIbom/" 2
+   candidate [1]: "s sIbom" 0 0 1 0 1 1 0 0
+   candidate [2]: "so sIbom" 1 0 0 0 0 0 0 0
+input [18]: "/so rnIbom/" 2
+   candidate [1]: "s rnIbom" 0 0 1 7 0 0 1 0
+   candidate [2]: "sa rnIbom" 1 0 0 0 0 0 0 0
+input [19]: "/so vzibOm/" 2
+   candidate [1]: "s vzibOm" 0 0 1 9 0 0 1 0
+   candidate [2]: "s@ vzibOm" 1 1 0 0 0 0 0 0
+input [20]: "/so msibOm/" 2
+   candidate [1]: "s msibOm" 0 0 1 6 0 1 1 0
+   candidate [2]: "s@ msibOm" 1 1 0 0 0 0 0 0
+input [21]: "/so rdibOm/" 2
+   candidate [1]: "s rdibOm" 0 0 1 9 0 0 1 0
+   candidate [2]: "s@ rdibOm" 1 1 0 0 0 0 0 0
+input [22]: "/so xribOm/" 2
+   candidate [1]: "s xribOm" 0 0 1 2 0 0 1 0
+   candidate [2]: "s@ xribOm" 1 1 0 0 0 0 0 0
+input [23]: "/so rnibOm/" 2
+   candidate [1]: "s rnibOm" 0 0 1 7 0 0 1 0
+   candidate [2]: "s@ rnibOm" 1 1 0 0 0 0 0 0
+input [24]: "/so vsIbom/" 2
+   candidate [1]: "s fsIbom" 0 0 1 9 0 1 1 0
+   candidate [2]: "sa fsIbom" 1 0 0 0 0 0 0 0
+input [25]: "/so vdibOm/" 2
+   candidate [1]: "s vdibOm" 0 0 1 10 0 0 1 0
+   candidate [2]: "s@ vdibOm" 1 1 0 0 0 0 0 0
+input [26]: "/so SrIbom/" 2
+   candidate [1]: "s SrIbom" 0 0 1 2 1 1 1 1
+   candidate [2]: "sa SrIbom" 1 0 0 0 0 0 0 0

@@ -4,7 +4,7 @@
 import itertools, os
 
 
-def read_tableau(path):
+def read_tableau(path, verbose=False):
     '''
     returns a python dictionary of inputs with output candidates, along with information 
     about winner/loser status and violation marks for each constraint
@@ -12,8 +12,10 @@ def read_tableau(path):
     try:
         with open(path, 'r', encoding='utf-8') as f:
             lines = [line.rstrip('\n').split('\t') for line in f.readlines() if not line.strip()=='']
+            if verbose:
+                print(lines)
             tabdic = {}
-#            toprow = len(lines[0])
+            toprow = len(lines[0])
             con_names = [x for x in lines[1] if x != '']
             for line in lines[2:]:
                 if line[0].startswith('['): #in case OTHelp format is used, [end of tableaux] and [minimal weight] lines
@@ -26,22 +28,29 @@ def read_tableau(path):
                     else: 
                         iswinner=False
                     freq = line[2]
- #                   for line in lines[2:]:
-                        #add some blank violations in case 0 marks aren't used, for the last few Cs
- #                       if len(line)<toprow:
- #                           line.extend(list('0'*(toprow-len(line))))
-                    num_violations = dict(zip(con_names, [x for x in line[3:]]))
+ #                       add some blank violations in case 0 marks aren't used, for the last few Cs
+                    if len(line)<toprow:
+                        line.extend(list('0'*(toprow-len(line))))
+                    if verbose:
+                        print(f'line[3:]: {line[3:]}')
+                    num_violations = dict(zip(con_names, line[3:]))
+                    if verbose:
+                        print(f'num_violations: {num_violations}')
                     if not inform=='':
                         curr_input = inform
                     if freq=='':
                         freq = '0'
                     tabdic[(curr_input,cand)] = {'winner':iswinner, 'num_viol':num_violations, 'freq': freq}
+                    if verbose:
+                        print(tabdic[(curr_input, cand)])
             for cand in tabdic:
                 for c in con_names:
                     if tabdic[cand]['num_viol'][c] == '':
                         tabdic[cand]['num_viol'][c] = 0
                     else:
                         tabdic[cand]['num_viol'][c] = abs(int(tabdic[cand]['num_viol'][c]))
+            if verbose:
+                print(tabdic)
             return (tabdic, con_names)
     except IOError:
         print("please make sure your file is in plain text format and is correctly formatted. See the OTHelp manual, https://people.umass.edu/othelp/OTHelp.pdf, section 3")
@@ -79,7 +88,7 @@ def make_support_table(tabdic, con_names):
             support[pair]['l_pref_constraints']= [x for x in con_names if tabdic[pair[0]]['num_viol'][x]>tabdic[pair[1]]['num_viol'][x]]
     return support
 
-def convert_to_praat(inpath):
+def convert_to_praat(inpath, verbose=False):
     '''
     this function takes in an OT-Soft tableau and converts it to Praat's format.
     The 'path' argument is for the input file. 
@@ -100,7 +109,7 @@ def convert_to_praat(inpath):
             else:
                 print('overwriting your file')
         if overwrite == 'y': 
-            (tabdic, con_names) = read_tableau(inpath)
+            (tabdic, con_names) = read_tableau(inpath, verbose)
             with open(newname, 'w', encoding='utf-8') as f:
                 f.write('File type = "ooTextFile"\nObject class = "OTGrammar 2"\n\ndecisionStrategy = <OptimalityTheory>\nleak = 0\n'+str(len(con_names)) + ' constraints\n')
                 counter = 1
@@ -151,7 +160,7 @@ if __name__=='__main__':
     '''
     import sys
     try:
-        convert_to_praat(sys.argv[1])
+        convert_to_praat(sys.argv[1], verbose=True)
     except IOError:
         print('please make sure that ' + sys.argv[1] + ' exists')
         print('please also make sure that there is no file that would be overwritten by conversion.')
