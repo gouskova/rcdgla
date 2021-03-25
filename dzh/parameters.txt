@@ -1,0 +1,25 @@
+"GRAMMAR_FILE"		:	dzh/dzh_grammar.txt
+"DIST_FILE"		:	dzh/dzh_dist.txt
+"FINAL_EVAL_SAMPLE"	:	1000
+"ITERATIONS"   		:	100
+"LEARNING_RATE"		:	0.1
+"INITIAL_BIAS"		:	false
+
+/*EDL Options*/
+"LEARNER"		:	batch
+"SAMPLE_SIZE"		:  	50
+"MAXDEPTH"		:	8
+
+/*EDL UR Options*/
+"UR_LEARNING"		:	true
+"UR_FILE"		:	dzh/dzh_urdist.txt
+"PHONO_ITERATIONS"	:	1
+
+/*PRINT OPTIONS*/
+"PRINT_INPUT"		:	true
+"FINAL_EVAL_ACC" 	: 	true
+"MINI_EVAL"		:	0
+"MINI_EVAL_FREQ"	:	1
+"MINI_EVAL_SAMPLE"	:	100
+"QUIT_EARLY_FREQ"	:	1
+"QUIT_EARLY_SAMPLE"	:	100

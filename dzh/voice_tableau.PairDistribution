@@ -1,0 +1,24 @@
+"ooTextFile"
+"PairDistribution"
+
+19 pairs
+
+"bat"	"bat"	1
+"bat"	"pat"	0
+"pad"	"pat"	1
+"pad"	"pad"	0
+"pat"	"pat"	1
+"pat"	"bat"	0
+"adpat"	"atpat"	1
+"adpat"	"adpat"	0
+"adpat"	"adbat"	0
+"atbat"	"adbat"	1
+"atbat"	"atbat"	0
+"atbat"	"atpat"	0
+"pac"	"pac"	1
+"pac"	"paj"	0
+"cat"	"cat"	1
+"cat"	"jat"	0
+"pacbat"	"pajbat"	1
+"pacbat"	"pacbat"	0
+"pacbat"	"pacpat"	0

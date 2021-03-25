@@ -1,0 +1,23 @@
+			*voice	agr-voice	id-preson	ident	*j
+			*voice	agr-voice	id-preson	ident	*j
+bat	bat	1	1				
+	pat				1	1	
+pad	pat	1				1	
+	pad		1				
+pat	pat	1					
+	bat		1		1	1	
+adpat	atpat	1				1	
+	adpat		1	1			
+	adbat		2		1	1	
+atbat	adbat	1	2			1	
+	atbat		1	1			
+	atpat				1	1	
+pac	pac	1					
+	paj		1			1	1
+cat	cat	1					
+	jat		1		1	1	1
+pacbat	pajbat	1	2			1	1
+	pacbat		1	1			
+	pacpat				1	1	
+jat	cat	1			1	1	
+	jat		1				1

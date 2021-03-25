@@ -1,0 +1,32 @@
+7 morphs
+morph 1
+UR [1]:	bat	0 0
+UR [2]:	pat	0 1
+UR [3]:	bad	1 0
+UR [4]:	pad	1 1
+morph 2
+UR [1]:	bat	0 0
+UR [2]:	pat	0 1
+UR [3]:	bad	1 0
+UR [4]:	pad	1 1
+morph 3
+UR [1]:	bat	0 0
+UR [2]:	pat	0 1
+UR [3]:	bad	1 0
+UR [4]:	pad	1 1
+morph 4
+UR [1]:	at	0 0
+UR [2]:	ad	0 1
+morph 5
+UR [1]:	at	0 0
+UR [2]:	ad	0 1
+morph	6
+UR [1]:	pac	0 0
+UR [2]:	bac	0 1
+UR [3]:	baj	1 0
+UR [4]:	bac	1 1
+morph 7
+UR [1]:	cat	0 0
+UR [2]:	jat	0 1
+UR [3]:	cad	1 0
+UR [3]:	jad	1 1

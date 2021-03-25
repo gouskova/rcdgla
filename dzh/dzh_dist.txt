@@ -1,0 +1,11 @@
+"ooTextFile"
+"PairDistribution"
+8 pairs
+"x"	"pat"	1	2	pad
+"x"	"atpat"	1	4,3	adpat
+"x"	"pac"	1	6	pac
+"x"	"adbat"	1	5,1	atbat
+"x"	"cat"	1	7	cat
+"x"	"pat"	1	3	pat
+"x"	"bat"	1	1	bat
+"x"	"pajbat"	1	6,1	pacbat
