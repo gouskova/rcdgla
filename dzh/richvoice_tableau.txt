@@ -21,3 +21,6 @@ pacbat	pajbat	1	2			1	1
 	pacpat				1	1	
 jat	cat	1			1	1	
 	jat		1				1
+papjat	pabjat	1	2			1	1
+	papcat				1	1
+	papjat		1	1			1
